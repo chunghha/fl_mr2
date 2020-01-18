@@ -38,8 +38,7 @@ class DeviceInfoDrawer extends StatelessWidget {
                       ),
                       Expanded(
                           child: Container(
-                        padding:
-                            const EdgeInsets.fromLTRB(8.0, 4.0, 0.0, 4.0),
+                        padding: const EdgeInsets.fromLTRB(8.0, 4.0, 0.0, 4.0),
                         child: Text(
                           '${_deviceData[property]}',
                           overflow: TextOverflow.ellipsis,
